@@ -6,7 +6,7 @@
 Or, as of 7/24/2024, `gitsniff` is a (and might be one of the first) tool to launch **Cross Fork Object Reference (CFOR)** attacks. <br />
 This 'vulnerability' was discovered two days ago by <a href="https://trufflesecurity.com/blog/anyone-can-access-deleted-and-private-repo-data-github">Truffle Security</a>. 👑 Go check out those guys and give them some well-deserved traffic. <br />
 <br />
-The general gist is that `gitsniff` exploits how the `git` repository network handles the concept of "upstream" nodes (more specifically, how that node gets reassigned), and how deleting a fork in `git` doesn't actually remove it from the overall `git` tree. <br />
+The general gist is that `gitsniff` exploits how the `git` repository network handles the concept of "upstream" nodes (more specifically, how that node gets reassigned), and how deleting a fork in `git` doesn't actually remove it from the overall `git` tree. <br /><br />
 Github is built off `git`. As such, all publicly available `git` repositories are theoretically susceptible to `gitsniff`. <br />
 Github is aware of this attack and according to Truffle Security, has no intentions of patching it (it's a feature, not a bug).
 
