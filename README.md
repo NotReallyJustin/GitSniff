@@ -41,10 +41,11 @@ Potential Improvement Ideas:
 Feel free to follow along and run `gitsniff` (and test it) on this <a href="https://github.com/NotReallyJustin/Generic-Open-AI-Wrapper">generic OpenAI wrapper</a>. Don't worry, you have my permission to CFOR that repo. Plus I can't stop you.
 <br /><br />
 Here's `gitsniff` running:
-
+<img src="https://github.com/NotReallyJustin/GitSniff/blob/main/Demo%20Images/prog.PNG?raw=true" />
 <br />
 Result:
 <br />
-
+<img src="https://github.com/NotReallyJustin/GitSniff/blob/main/Demo%20Images/done.PNG?raw=true" />
 Clicking into one of the hidden forks (that's now deleted):
 <br />
+<img src="https://github.com/NotReallyJustin/GitSniff/blob/main/Demo%20Images/deleted_commit.PNG?raw=true" />
