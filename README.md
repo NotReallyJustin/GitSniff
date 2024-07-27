@@ -49,3 +49,6 @@ Result:
 Clicking into one of the hidden forks (that's now deleted):
 <br />
 <img src="https://github.com/NotReallyJustin/GitSniff/blob/main/Demo%20Images/deleted_commit.PNG?raw=true" />
+
+## Obligatory Legal Stuff or else my lawyer would be very mad at me
+Justin (or any entity he's affiliated with) is not responsible for any consequences as a result of `gitsniff`. These include but are not limited to: blowing up nuclear reactors, BSODing 8.5 million Windows computers across the world, TicketMaster data breaches, or being subpoena'd to testify in front of Congress.
