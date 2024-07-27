@@ -31,7 +31,7 @@ python ./gitsniff.py -h
 ## Modifying gitsniff
 `gitsniff` is nothing groundbreaking. All it really does is fuzz short SHA-1 hashes and uses the Github API to differentiate actual commits from potential, hidden forks. <br />
 This tool uses multithreading (via ThreadPoolExecutors). Make sure your computer can handle that. <br /> <br />
-Feel free to (funnily enough) clone this. It's dedicated to the public domain, so go have some fun. <br />
+Feel free to (funnily enough) fork this. It's dedicated to the public domain, so go have some fun. <br />
 <br />
 Potential Improvement Ideas:
 * Add multiprocessing capabilities (since this *does* do things via brute force)
