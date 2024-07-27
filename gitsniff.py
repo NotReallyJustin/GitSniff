@@ -122,7 +122,7 @@ def terminate_thread(thread_pool:ThreadPoolExecutor):
 
 def launch_async(repo_url:str, max_workers:int=3, hash_digits:int=4, rate_limit=450):
     '''
-    Asynchronously brute forces Github forks using the first 6 digits of the SHA-1 Hash
+    Asynchronously brute forces Github forks using the first $hash_digits of the SHA-1 Hash
     @param repo_url URL of repository to sniff for forks
     @param max_workers The maximum number of worker threads to launch. This is 5 by default. Increase this at your own risk because 429 errors aren't fun
     @param hash_digits The `$git` protocol allows us to access a repository via short SHA-1 Hashes. This param controls the number of digits in the hash (w/ a minimum of 4)\
