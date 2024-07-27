@@ -177,7 +177,7 @@ def launch_async(repo_url:str, max_workers:int=3, hash_digits:int=4, rate_limit=
     # This shutdown is blocking
     thread_pool.shutdown(wait=True)
 
-    tqdm.write("\gitsniff complete.")
+    tqdm.write("gitsniff complete.")
 
 if __name__ == "__main__":
     # url = "https://github.com/NotReallyJustin/Generic-Open-AI-Wrapper"
