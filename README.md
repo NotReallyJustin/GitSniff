@@ -34,7 +34,6 @@ This tool uses multithreading (via ThreadPoolExecutors). Make sure your computer
 Feel free to (funnily enough) fork this. It's dedicated to the public domain, so go have some fun. <br />
 <br />
 Potential Improvement Ideas:
-* Add multiprocessing capabilities (since this *does* do things via brute force)
 * Bypass Github's rate limit. I didn't have the time to test this on Proxy Servers or VPNs (since it would be kind of a waste of money to proxy server something that is only going to take 2 hours to run), but that's something you could look into
 
 ## Demo/Images of gitsniff in action
