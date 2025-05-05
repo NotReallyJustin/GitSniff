@@ -2,6 +2,7 @@
 
 ## Overview
 `gitsniff` is a very simple command line tool that fuzzes Github repositories in search of hidden, deleted, or private forks. <br />
+`gitsniff` is also capable of accessing deleting Github repositories/commits, as long as the repository has been forked. I haven't tested this myself, but theoretically, you should be able to retreieve <a href="https://krebsonsecurity.com/2025/05/xai-dev-leaks-api-key-for-private-spacex-tesla-llms/">Tesla/SpaceX's LLM tokens.</a> <br />
 <br />
 Or, as of 7/24/2024, `gitsniff` is a (and might be one of the first) tool to launch **Cross Fork Object Reference (CFOR)** attacks. <br />
 This 'vulnerability' was discovered two days ago by <a href="https://trufflesecurity.com/blog/anyone-can-access-deleted-and-private-repo-data-github">Truffle Security</a>. 👑 Go check out those guys and give them some well-deserved traffic. <br />
