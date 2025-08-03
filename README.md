@@ -5,9 +5,11 @@
 `gitsniff` is also capable of accessing deleting Github repositories/commits, as long as the repository has been forked. 
 * I haven't tested this myself, but theoretically, you should be able to retreieve <a href="https://krebsonsecurity.com/2025/05/xai-dev-leaks-api-key-for-private-spacex-tesla-llms/">Tesla/SpaceX's deleted LLM tokens.</a> <br />
 <br />
+
 Or, as of 7/24/2024, `gitsniff` is a (and might be one of the first) tool to launch **Cross Fork Object Reference (CFOR)** attacks. <br />
 This 'vulnerability' was discovered two days ago by <a href="https://trufflesecurity.com/blog/anyone-can-access-deleted-and-private-repo-data-github">Truffle Security</a>. 👑 Go check out those guys and give them some well-deserved traffic. <br />
 <br />
+
 The general gist is that `gitsniff` exploits how the `git` repository network handles the concept of "upstream" nodes (more specifically, how that node gets reassigned), and how deleting a fork in `git` doesn't actually remove it from the overall `git` tree. <br /><br />
 Github is built off `git`. As such, all publicly available `git` repositories are theoretically susceptible to `gitsniff`. <br />
 Github is aware of this attack and according to Truffle Security, has no intentions of patching it (it's a feature, not a bug).
@@ -54,4 +56,4 @@ Clicking into one of the hidden forks (that's now deleted):
 ## Obligatory Legal Stuff or else my lawyer would be very mad at me
 Justin (or any entity he's affiliated with) is not responsible for any consequences as a result of `gitsniff`. These include but are not limited to: blowing up nuclear reactors, BSODing 8.5 million Windows computers across the world, TicketMaster data breaches, or being subpoena'd to testify in front of Congress. <br />
 <br />
-But if this script does somehow get used in Stuxnet 2.0 or WannaCry 2.0, please let me know so I can put it on my resume 🥺 It's rough out here
+But if this script does somehow get used in Stuxnet 2.0 or WannaCry 2.0, please let me know so I can put it on my resume 🥺
