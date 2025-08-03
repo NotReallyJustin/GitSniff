@@ -57,3 +57,4 @@ Clicking into one of the hidden forks (that's now deleted):
 Justin (or any entity he's affiliated with) is not responsible for any consequences as a result of `gitsniff`. These include but are not limited to: blowing up nuclear reactors, BSODing 8.5 million Windows computers across the world, TicketMaster data breaches, or being subpoena'd to testify in front of Congress. <br />
 <br />
 But if this script does somehow get used in Stuxnet 2.0 or WannaCry 2.0, please let me know so I can put it on my resume 🥺
+* If you happen to work for the NSA/CISA/CIA/FBI, you should also consider recruiting me just sayin'
